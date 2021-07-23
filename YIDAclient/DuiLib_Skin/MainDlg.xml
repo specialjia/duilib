@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="800,600" mininfo="600,400" caption="0,0,0,32" sizebox="4,4,4,4">
+	<VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0">
+		<HorizontalLayout height="32" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0">
+			<VerticalLayout />
+			<VerticalLayout width="200">
+				<Button name="minbtn"   tooltip="最小化" text="最小化" float="true" pos="0,5,22,24"  width="50" />
+				<Button name="maxbtn"   tooltip="最大化" text = "最大化" float="true" pos="50,5,44,24" width="50" normalimage=" file='SysBtn\MaxNormal.bmp' " hotimage=" file='SysBtn\MaxFocus.bmp' " pushedimage=" file='SysBtn\MaxFocus.bmp' " />
+				<Button name="restorebtn" visible="false" tooltip="还原" text="还原" float="true" pos="100,5,44,24" width="50" normalimage=" file='SysBtn\StoreNormal.bmp' " hotimage=" file='SysBtn\StoreFocus.bmp' " pushedimage=" file='SysBtn\StoreFocus.bmp' " />
+				<Button name="closebtn" tooltip="关闭"  text="关闭" float="true" pos="150,5,74,24" width="50" normalimage=" file='SysBtn\CloseNormal.bmp' " hotimage=" file='SysBtn\CloseFocus.bmp' " pushedimage=" file='SysBtn\CloseFocus.bmp' "/>
+			</VerticalLayout>      
+		</HorizontalLayout>
+		<HorizontalLayout>
+			<Button name="btnHello" text="Hello World"/>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
